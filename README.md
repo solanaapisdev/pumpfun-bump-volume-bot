@@ -2,6 +2,8 @@
 
 Increase your token's volume and buy sell orders on Pumpfun with our automated bot that uses multiple wallets, random buys, and random delays to continuously place buy and sell orders. 
 
+![Pumpfun Bump Volume Bot](https://github.com/solanaapisdev/pumpfun-bump-volume-bot/blob/main/pumpfun-bump-volume-bot.png)
+
 ## Features
 
 - Custom Fee Option
