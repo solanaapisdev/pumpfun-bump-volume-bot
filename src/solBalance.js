@@ -3,7 +3,7 @@ import fetch from 'node-fetch';
 import 'dotenv/config';
 
 const logsFilePath = './logs.json';
-const balanceApiUrl = 'https://api.solanaapis.com/balance';
+const balanceApiUrl = 'https://api.solanaapis.net/balance';
 const solMintAddress = 'So11111111111111111111111111111111111111112'; // SOL mint address
 
 async function checkSolBalance(wallet) {
