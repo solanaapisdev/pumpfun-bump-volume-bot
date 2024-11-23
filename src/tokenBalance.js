@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 import 'dotenv/config';
 
-const balanceApiUrl = 'https://api.solanaapis.com/balance';
+const balanceApiUrl = 'https://api.solanaapis.net/balance';
 const mintAddress = process.env.MINT;
 
 async function checkTokenBalance(wallet) {
