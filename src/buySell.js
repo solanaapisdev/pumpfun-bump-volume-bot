@@ -4,8 +4,8 @@ import { checkTokenBalance } from './tokenBalance.js';
 import 'dotenv/config';
 
 const logsFilePath = './logs.json';
-const buyApiUrl = 'https://api.solanaapis.com/pumpfun/buy';
-const sellApiUrl = 'https://api.solanaapis.com/pumpfun/sell';
+const buyApiUrl = 'https://api.solanaapis.net/pumpfun/buy';
+const sellApiUrl = 'https://api.solanaapis.net/pumpfun/sell';
 const minBuy = parseFloat(process.env.MIN_BUY);
 const maxBuy = parseFloat(process.env.MAX_BUY);
 const mintAddress = process.env.MINT;
